@@ -1,0 +1,3 @@
+1) openCV images coordinates are y,x or height, width
+2) OpenCV 0,0 is upper left corner
+3) 
