@@ -1,3 +1,9 @@
 1) openCV images coordinates are y,x or height, width
 2) OpenCV 0,0 is upper left corner
-3) 
+3) In Translation Negative values move left and up, positive move right, and down.
+
+Define a translation matrix to shift an image 30 pixels up and 50 pixels to the right.
+M = np.float32([[1, 0, 50], [0, 1, -30]])
+
+Define a translation matrix to shift an image 90 pixels down and 10 pixels to to the left.
+M = np.float32([[1, 0, 50], [0, 1, 90]])
