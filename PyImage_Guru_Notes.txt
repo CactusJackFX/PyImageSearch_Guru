@@ -9,3 +9,4 @@ Define a translation matrix to shift an image 90 pixels down and 10 pixels to to
 M = np.float32([[1, 0, 50], [0, 1, 90]])
 
 4) In Rotation Negative numbers is clockwise and positive numbers are counter clockwise
+5) general rule, cv2.INTER_LINEAR  interpolation method is recommended as the default for whenever you’re upsampling or downsampling
