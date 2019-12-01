@@ -10,3 +10,5 @@ M = np.float32([[1, 0, 50], [0, 1, 90]])
 
 4) In Rotation Negative numbers is clockwise and positive numbers are counter clockwise
 5) general rule, cv2.INTER_LINEAR  interpolation method is recommended as the default for whenever you’re upsampling or downsampling
+
+6) when using flip 1 is horizontal, 0 is vertical, and -1 is both horizontal and vertical flipping
