@@ -21,3 +21,5 @@ M = np.float32([[1, 0, 50], [0, 1, 90]])
 8) Essentially, the bitwise NOT function flips pixel values
 
 9) Kernels can be an arbitrary size of M \times N pixels, provided that both M and N are odd integers.
+
+10) as the size of the kernel increases, so will the amount in which the image is blurred.
