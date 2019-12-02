@@ -23,3 +23,4 @@ M = np.float32([[1, 0, 50], [0, 1, 90]])
 9) Kernels can be an arbitrary size of M \times N pixels, provided that both M and N are odd integers.
 
 10) as the size of the kernel increases, so will the amount in which the image is blurred.
+11) always consider your lighting conditions before you write a single line of code!
