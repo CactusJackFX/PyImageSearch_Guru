@@ -24,3 +24,11 @@ M = np.float32([[1, 0, 50], [0, 1, 90]])
 
 10) as the size of the kernel increases, so will the amount in which the image is blurred.
 11) always consider your lighting conditions before you write a single line of code!
+
+12) We could also use the Scharr kernel instead of the Sobel kernel which may give us better approximations to the gradient
+
+Note: While it’s not present in the code sample above, computing the Scharr kernel can be done in the exact same manner,
+ only using the cv2.Scharr  function or supplying an optional parameter value of ksize=-1 for the cv2.Sobel  function
+    # compute gradients along the X and Y axis, respectively
+    gX = cv2.Sobel(gray, ddepth=cv2.CV_64F, dx=1, dy=0)
+    gY = cv2.Sobel(gray, ddepth=cv2.CV_64F, dx=0, dy=1)
