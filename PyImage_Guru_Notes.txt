@@ -32,3 +32,22 @@ Note: While it’s not present in the code sample above, computing the Scharr ke
     # compute gradients along the X and Y axis, respectively
     gX = cv2.Sobel(gray, ddepth=cv2.CV_64F, dx=1, dy=0)
     gY = cv2.Sobel(gray, ddepth=cv2.CV_64F, dx=0, dy=1)
+    
+13) Contours are an invaluable tool as it's used to find and access our outlines.
+
+All too often I see computer vision and image processing developers trying to leverage complicated machine learning techniques to solve problems where contours would be better suited.
+
+Don’t fall into this trap — pay attention to this module, as it’s one of the most important techniques that you’ll use over and over again in your computer vision career.
+
+14) Key takeaway: For better accuracy you’ll normally want to utilize a binary image rather than a grayscale image.
+15)  The cv2.findContours  function is destructive to the input image (meaning that it manipulates it) so if you intend on using your input image again, be sure to clone it using the copy()  method prior to passing it into cv2.findContours .
+
+16)  cv2.CHAIN_APPROX_NONE , we would be storing every single (x, y)-coordinate along the contour. In general, this not advisable. It’s substantially slower and takes up significantly more memory.
+17) Returning only external contours is a technique that we’ll exploit heavily in this course, so it’s important for us to understand this concept.
+
+18) It’s important to take note of Line 98. A contour must have at least 5 points for an ellipse to be computed — if a contour has less than 5 points, then an ellipse cannot be fit to the rotated rectangle region.
+
+
+
+
+
