@@ -48,6 +48,7 @@ Don’t fall into this trap — pay attention to this module, as it’s one of t
 18) It’s important to take note of Line 98. A contour must have at least 5 points for an ellipse to be computed — if a contour has less than 5 points, then an ellipse cannot be fit to the rotated rectangle region.
 
 19) It’s important to note that we only apply connected-component analysis to binary or thresholded images.
+20) Computing contour properties is done on only a single contour at a time
 
 
 
