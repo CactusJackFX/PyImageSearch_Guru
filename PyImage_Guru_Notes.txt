@@ -51,6 +51,12 @@ Don’t fall into this trap — pay attention to this module, as it’s one of t
 20) Computing contour properties is done on only a single contour at a time
 
 21) Before you start developing your own custom object detector, be sure to consider the shape, size, and aspect ratio of the objects you are trying to detect
+22) Haar cascade model for object detection has fallen out of favor to the more robust HOG + Linear SVM approach, which has become the widely accepted method to training your own custom object detectors.
+
+The 6-Step FrameWork:
+
+1) Sample P positive samples from your training data of the object(s) you want to detect.
+2) Sample N negative samples from a negative training set that does not contain any of the objects you want to detect, and extract HOG descriptors from these samples as well.
 
 
 
