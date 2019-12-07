@@ -50,6 +50,8 @@ Don’t fall into this trap — pay attention to this module, as it’s one of t
 19) It’s important to note that we only apply connected-component analysis to binary or thresholded images.
 20) Computing contour properties is done on only a single contour at a time
 
+21) Before you start developing your own custom object detector, be sure to consider the shape, size, and aspect ratio of the objects you are trying to detect
+
 
 
 
