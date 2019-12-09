@@ -124,4 +124,10 @@ dmypy.json
 .pyre/
 
 .idea/
+
+# PyImageSearch Gurus Items I don't want  uploaded
+sceneclass13/
+output/
 caltech101/
+.hdf5
+

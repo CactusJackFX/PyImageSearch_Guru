@@ -58,6 +58,7 @@ The 6-Step FrameWork:
 1) Sample P positive samples from your training data of the object(s) you want to detect.
 2) Sample N negative samples from a negative training set that does not contain any of the objects you want to detect, and extract HOG descriptors from these samples as well.
 
-
+23) but it’s very common to have your pixels_per_cell  be a multiple of four.
+24) Your cells_per_block  is also almost always in the set {1, 2, 3}.
 
 
