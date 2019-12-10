@@ -129,5 +129,5 @@ dmypy.json
 sceneclass13/
 output/
 caltech101/
-.hdf5
+face_detector/
 
