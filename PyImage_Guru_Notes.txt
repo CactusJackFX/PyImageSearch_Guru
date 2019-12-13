@@ -61,4 +61,11 @@ The 6-Step FrameWork:
 23) but it’s very common to have your pixels_per_cell  be a multiple of four.
 24) Your cells_per_block  is also almost always in the set {1, 2, 3}.
 
+Content Based Image Retrieval ***************************************
+“What image descriptor should I use to describe X?” where X can be some object in an image, a set of vacation photos, or a biomedical imaging project.
 
+    In each and every case, the answer is always: it depends.
+
+Often, you will need to leverage your intimate knowledge of the dataset contents to influence your image descriptor choice.
+When you’re just getting started learning CBIR, these may not be questions you can answer immediately — and more times than not, your first choice won’t give you the best results.
+Content Based Image Retrieval ***************************************
